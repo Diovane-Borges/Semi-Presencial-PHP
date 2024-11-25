@@ -1,11 +1,9 @@
 <?php
- 
+
 namespace App\Policies;
 
-use App\Models\Pokemon;
-use App\Models\Post;
 use App\Models\User;
- 
+
 class PokemonPolicy
 {
     public function create(User $user): bool
